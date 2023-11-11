@@ -1,0 +1,302 @@
+.border-bottom{
+    background: linear-gradient(300deg,purple, #ff4, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 38s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  {
+    background-color: #E0D8B0;
+  }
+
+  .display-4{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: lighter;
+    line-height: normal;
+    color: black;
+    text-align: right;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.lead{
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: medium;
+  font-weight: lighter;
+  line-height: normal;
+  color: black;
+  text-align: center;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  justify-content: left;
+  align-items: left;
+}
+
+  .h4{
+    color: #495E57;
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: ;
+    text-align: center;
+  }
+
+  .body{
+    position: relative;
+    left: 500px;
+    bottom: -100px; 
+    right: ;
+  }
+
+  .container{
+    background-color: ;
+
+  }
+
+  .paragraf{
+    color: black;
+    font-family: sans-serif;
+    font-size: auto;
+    font-weight: lighter;
+    text-align: left;
+  }
+
+  .display-5{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: lighter;
+    line-height: normal;
+    color: black;
+    text-align: right;
+    justify-content: right;
+    align-items: right;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .lead1{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+    line-height: normal;
+    color: black;
+    text-align: center;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .display-3{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xxx-large;
+    font-weight: lighter;
+    line-height: normal;
+    color: black;
+    text-align: center;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  ::after, ::before {
+    box-sizing: border-box;
+}
+
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+:root {
+    --bs-breakpoint-xs: 0;
+    --bs-breakpoint-sm: 576px;
+    --bs-breakpoint-md: 768px;
+    --bs-breakpoint-lg: 992px;
+    --bs-breakpoint-xl: 1200px;
+    --bs-breakpoint-xxl: 1400px;
+}
+:root, [data-bs-theme=light] {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-black: #000;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-gray-100: #f8f9fa;
+    --bs-gray-200: #e9ecef;
+    --bs-gray-300: #dee2e6;
+    --bs-gray-400: #ced4da;
+    --bs-gray-500: #adb5bd;
+    --bs-gray-600: #6c757d;
+    --bs-gray-700: #495057;
+    --bs-gray-800: #343a40;
+    --bs-gray-900: #212529;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-primary-rgb: 13,110,253;
+    --bs-secondary-rgb: 108,117,125;
+    --bs-success-rgb: 25,135,84;
+    --bs-info-rgb: 13,202,240;
+    --bs-warning-rgb: 255,193,7;
+    --bs-danger-rgb: 220,53,69;
+    --bs-light-rgb: 248,249,250;
+    --bs-dark-rgb: 33,37,41;
+    --bs-primary-text-emphasis: #052c65;
+    --bs-secondary-text-emphasis: #2b2f32;
+    --bs-success-text-emphasis: #0a3622;
+    --bs-info-text-emphasis: #055160;
+    --bs-warning-text-emphasis: #664d03;
+    --bs-danger-text-emphasis: #58151c;
+    --bs-light-text-emphasis: #495057;
+    --bs-dark-text-emphasis: #495057;
+    --bs-primary-bg-subtle: #cfe2ff;
+    --bs-secondary-bg-subtle: #e2e3e5;
+    --bs-success-bg-subtle: #d1e7dd;
+Show All Properties (67 more)
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: ;
+}
+
+.container3{
+  background: linear-gradient(300deg,purple, #ff4, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 38s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.row2{
+  background: linear-gradient(300deg,purple, #ff4, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 38s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.w-100 {
+  width: 100%!important;
+  
+}
+
+.d-block {
+  display: block!important;
+}
+img, svg {
+  vertical-align: middle;
+}
+
+.bd-example {
+  background-color: #198754;
+  --bd-example-padding: 1.5rem;
+  margin-right: 0;
+  margin-left: 0;
+  border-width: 1px;
+  border-radius: var(--bs-border-radius);
+}
+.bd-example {
+  --bd-example-padding: 1rem;
+  position: relative;
+  padding: var(--bd-example-padding);
+  margin: 0 -1.5rem 1rem;
+  border: solid var(--bs-border-color);
+  border-width: 1px 0;
+}
+
+.{
+
+}
+
+.container{
+  background: linear-gradient(300deg,purple, #ff4, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 38s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.w-100 {
+  width: 100%!important;
+  
+}
+
+.d-block {
+  display: block!important;
+}
+img, svg {
+  vertical-align: middle;
+}
